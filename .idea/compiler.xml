@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch16-pig" />
+        <module name="ch15-sqoop" />
+        <module name="ch18-crunch" />
+        <module name="ch20-hbase" />
+        <module name="ch17-hive" />
+        <module name="ch22-case-studies" />
+        <module name="ch21-zk" />
+        <module name="snippet" />
+        <module name="ch13-parquet" />
+        <module name="ch08-mr-types" />
+        <module name="ch02-mr-intro" />
+        <module name="ch06-mr-dev" />
+        <module name="ch19-spark" />
+        <module name="ch03-hdfs" />
+        <module name="ch05-io" />
+        <module name="ch09-mr-features" />
+        <module name="common" />
+        <module name="ch12-avro" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="book" target="1.5" />
+      <module name="ch02-mr-intro" target="1.5" />
+      <module name="ch03-hdfs" target="1.5" />
+      <module name="ch05-io" target="1.5" />
+      <module name="ch06-mr-dev" target="1.5" />
+      <module name="ch08-mr-types" target="1.5" />
+      <module name="ch09-mr-features" target="1.5" />
+      <module name="ch12-avro" target="1.5" />
+      <module name="ch13-parquet" target="1.5" />
+      <module name="ch15-sqoop" target="1.5" />
+      <module name="ch16-pig" target="1.5" />
+      <module name="ch17-hive" target="1.5" />
+      <module name="ch18-crunch" target="1.5" />
+      <module name="ch19-spark" target="1.5" />
+      <module name="ch20-hbase" target="1.5" />
+      <module name="ch21-zk" target="1.5" />
+      <module name="ch22-case-studies" target="1.5" />
+      <module name="common" target="1.5" />
+      <module name="hadoop-book" target="1.5" />
+      <module name="hadoop-examples" target="1.5" />
+      <module name="snippet" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="327ead04-774b-43c8-be3d-60b454033190" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hadoop-book.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/book.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch02-mr-intro/ch02-mr-intro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch03-hdfs/ch03-hdfs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05-io/ch05-io.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06-mr-dev/ch06-mr-dev.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch08-mr-types/ch08-mr-types.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch09-mr-features/ch09-mr-features.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch12-avro/ch12-avro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13-parquet/ch13-parquet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch15-sqoop/ch15-sqoop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch16-pig/ch16-pig.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17-hive/ch17-hive.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch18-crunch/ch18-crunch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch19-spark/ch19-spark.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch20-hbase/ch20-hbase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch21-zk/ch21-zk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch22-case-studies/ch22-case-studies.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadoop-examples/hadoop-examples.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippet/snippet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21-zk/src/main/java/ActiveKeyValueStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch21-zk/src/main/java/ActiveKeyValueStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21-zk/src/main/java/ConfigUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch21-zk/src/main/java/ConfigUpdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21-zk/src/main/java/ConfigWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch21-zk/src/main/java/ConfigWatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21-zk/src/main/java/ConnectionWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch21-zk/src/main/java/ConnectionWatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21-zk/src/main/java/CreateGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch21-zk/src/main/java/CreateGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21-zk/src/main/java/DeleteGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch21-zk/src/main/java/DeleteGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21-zk/src/main/java/JoinGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch21-zk/src/main/java/JoinGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21-zk/src/main/java/ListGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch21-zk/src/main/java/ListGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21-zk/src/main/java/ResilientActiveKeyValueStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch21-zk/src/main/java/ResilientActiveKeyValueStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21-zk/src/main/java/ResilientConfigUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch21-zk/src/main/java/ResilientConfigUpdater.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/book/target/" />
+    <ignored path="$PROJECT_DIR$/ch02-mr-intro/target/" />
+    <ignored path="$PROJECT_DIR$/hadoop-examples/target/" />
+    <ignored path="$PROJECT_DIR$/ch21-zk/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/ch08-mr-types/target/" />
+    <ignored path="$PROJECT_DIR$/ch09-mr-features/target/" />
+    <ignored path="$PROJECT_DIR$/ch06-mr-dev/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-crunch/target/" />
+    <ignored path="$PROJECT_DIR$/ch20-hbase/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-case-studies/target/" />
+    <ignored path="$PROJECT_DIR$/snippet/target/" />
+    <ignored path="$PROJECT_DIR$/ch03-hdfs/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-hive/target/" />
+    <ignored path="$PROJECT_DIR$/ch19-spark/target/" />
+    <ignored path="$PROJECT_DIR$/ch13-parquet/target/" />
+    <ignored path="$PROJECT_DIR$/ch15-sqoop/target/" />
+    <ignored path="$PROJECT_DIR$/ch16-pig/target/" />
+    <ignored path="$PROJECT_DIR$/ch05-io/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-avro/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch21-zk/src/main/java/ResilientActiveKeyValueStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch21-zk/src/main/java/ResilientConfigUpdater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch21-zk/src/main/java/ConfigUpdater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="53" column="47" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ch21-zk/src/main/java/CreateGroup.java" />
+        <option value="$PROJECT_DIR$/ch21-zk/src/main/java/ConnectionWatcher.java" />
+        <option value="$PROJECT_DIR$/ch21-zk/src/main/java/JoinGroup.java" />
+        <option value="$PROJECT_DIR$/ch21-zk/src/main/java/ListGroup.java" />
+        <option value="$PROJECT_DIR$/ch21-zk/src/main/java/DeleteGroup.java" />
+        <option value="$PROJECT_DIR$/ch21-zk/src/main/java/ActiveKeyValueStore.java" />
+        <option value="$PROJECT_DIR$/ch21-zk/src/main/java/ConfigUpdater.java" />
+        <option value="$PROJECT_DIR$/ch21-zk/src/main/java/ConfigWatcher.java" />
+        <option value="$PROJECT_DIR$/ch21-zk/src/main/java/ResilientActiveKeyValueStore.java" />
+        <option value="$PROJECT_DIR$/ch21-zk/src/main/java/ResilientConfigUpdater.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Users\my_java\repository" />
+        <option name="mavenHome" value="C:/my_java/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\my_java\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hadoop-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch21-zk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch21-zk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch21-zk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch21-zk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="327ead04-774b-43c8-be3d-60b454033190" name="Default Changelist" comment="" />
+      <created>1557757768191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557757768191</updated>
+      <workItem from="1557757769789" duration="1587000" />
+      <workItem from="1558015089948" duration="34000" />
+      <workItem from="1558145240479" duration="11427000" />
+    </task>
+    <task id="LOCAL-00001" summary="zk代码说明练习01">
+      <created>1557759317625</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557759317626</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13048000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18270008" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zk代码说明练习01" />
+    <option name="LAST_COMMIT_MESSAGE" value="zk代码说明练习01" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ch21-zk/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch21-zk/src/main/java/JoinGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch21-zk/src/main/java/DeleteGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch21-zk/src/main/java/ListGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch21-zk/src/main/java/ConfigWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch21-zk/src/main/java/ConnectionWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch21-zk/src/main/java/CreateGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="43" column="11" lean-forward="true" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch21-zk/src/main/java/ActiveKeyValueStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="56" selection-start-line="56" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch21-zk/src/main/java/ConfigUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="53" column="47" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch21-zk/src/main/java/ResilientActiveKeyValueStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch21-zk/src/main/java/ResilientConfigUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

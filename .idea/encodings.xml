@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/book" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch02-mr-intro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch03-hdfs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch05-io" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06-mr-dev" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch08-mr-types" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch09-mr-features" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12-avro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch13-parquet" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch15-sqoop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch16-pig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch17-hive" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch18-crunch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch19-spark" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch20-hbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch21-zk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch22-case-studies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hadoop-examples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/snippet" charset="UTF-8" />
+  </component>
+</project>

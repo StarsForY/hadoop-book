@@ -19,7 +19,14 @@ public class CreateGroup implements Watcher {
   private ZooKeeper zk;
   // java并发辅助类，实现类似计数器的功能，后面的 1 表示需要等待一个线程结束才能执行
   private CountDownLatch connectedSignal = new CountDownLatch(1);   //1 为count值
-  
+
+  /**
+   *  pengt 20190518
+   * @param hosts
+   * @throws IOException
+   * @throws InterruptedException
+   * 创建zookeeper的连接对象
+   */
   public void connect(String hosts) throws IOException, InterruptedException {
     // 初始化 ZooKeeper 实例(zk 地址、会话超时时间，与系统默认一致、watcher)
     // 第一个参数：zookeeper服务的主机地址（可以指定端口，默认端口为2181）
@@ -36,7 +43,13 @@ public class CreateGroup implements Watcher {
   // watcher 监听类下面需要重写的方法，时获取zookeeper时间的回调方法
   @Override
   public void process(WatchedEvent event) { // Watcher interface
+    // 查询事件的通知状态是否为连接事件
+    // event.getState() 函数是获取事件的通知状态（该API可以参看我的博客zookeeper的javaAPI）
+    // KeeperState.SyncConnected 是一个枚举值，表示接收到一个连接事件，来源于watch接口
     if (event.getState() == KeeperState.SyncConnected) {
+      // 这里采用之前按的java并发辅助类，调用其中的方法，将count值减一
+      // 因为之前设置的是 1 ，所以这里线程不在挂起，开始执行，
+      // 即zookeeper连接正常了就不再挂起线程
       connectedSignal.countDown();
     }
   }
